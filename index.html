@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h2{
+      animation-duration: 4s;
+      animation-iteration-count: 3
+    }
+    body {
+      height: 100%;
+      margin: 0;
+      background-image: url("cinema.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    video{
+      position: relative;
+      left: 18%;
+      bottom: 20px;
+      margin-bottom: 10px;
+      width: 66%;
+
+    }
+    button {
+      width: 9rem;
+      height: 40px;
+      margin: 0 auto;
+      border-radius: 10px;
+      background-color: rgb(17, 123, 180)	;
+      color: white;
+      font-size: 2rem;
+      position: relative;
+      left: 39%;
+      border-color: rgb(17, 123, 180)
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: #03256C;
+      color: white;
+      border-color: #03256C
+
+    }
+
+  </style>
+</head>
+<body>
+<h1 style="text-align: center;color: rgb(17, 123, 180)">Welcome to RotanaCinema</h1>
+<div>
+  <video height=auto controls autoplay muted>
+    <source src="task.mp4" type="video/mp4">
+    <source src="task.ogg" type="video/ogg">
+  </video>
+
+</div>
+<div style="display: inline-block;width: 100%">
+  <button onclick="window.open('https://www.facebook.com/RotanaCinemaTV/')">Follow</button>
+  <button onclick="window.open('https://www.facebook.com/RotanaCinemaTV/')">Like</button>
+</div>
+</body>
+</html>
